@@ -502,3 +502,128 @@ svg {
   transform: translate(-50%, 0);
   margin-top: 38px;
 }
+/* CTA */
+.CTA{
+  margin-top: 170px;
+  height: 522px;
+}
+.CTA.border{
+border: 1px solid #FFF;
+}
+.CTA .container{
+
+  height: 522px;
+
+}
+.cta__text{
+
+  width: 586px;
+  height: 276px;
+}
+.container--bg{
+  position: relative;
+  background-color:#2E80CE ;
+  display: flex;
+
+  width: 1170px;
+  height: 427px;
+margin-top:  95px;
+}
+.container--bg .phone{
+position: absolute;
+bottom: 0;
+left: 70px;
+}
+.cta__text{
+  position: absolute;
+  width: 586px;
+  height: 276px;
+  top: 76px;
+  right: 70px;
+}
+.cta__text--title{
+  color: #FFF;
+   margin-bottom: 18px;
+width: 489px;
+  font-size: 5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 6rem; 
+  letter-spacing: -1px;
+}
+.cta__text--desc{
+  color: #FFF;
+margin-bottom: 38px;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 300;
+line-height: 3rem;
+}
+.cta__text--group .apple{
+  margin-left: 37.18px;
+}
+/* blog */
+.blog{
+  margin-top: 170px;
+  height: 375px;
+}
+.blog .container{
+  display: flex;
+  height: 375px;
+}
+.blog__text{
+  margin-top: 67px;
+  margin-right: 130px;
+  width: 470px;
+  height: 240px;
+}
+.blog__card{
+  width: 270px;
+  height: 375px;
+}
+.blog__card:nth-child(n+2){
+  margin-left: 18px;
+}
+.blog__text--title{
+  margin-bottom: 28px;
+  color: #10375C;
+
+font-size: 5rem;
+font-style: normal;
+font-weight: 600;
+line-height: 6rem; 
+letter-spacing: -1px;
+}
+.blog__text--read{
+  color: #10375C;
+  margin-bottom: 28px;
+}
+.blog__card--title{
+  color: #10375C;
+margin-left: 22px;
+margin-top: 18px;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2.6rem; 
+}
+.blog__card--desc{
+
+  color: #575F66;
+  margin-left: 22px;
+margin-top: 10px;
+margin-bottom: 12px;
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 300;
+line-height: 2.4rem; 
+}
+.blog__card--learn{
+  color: #10375C;
+  margin-left: 22px;
+  
+font-size: 1.4rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
